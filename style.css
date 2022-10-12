@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+  background-image: url("pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card_wrapper {
+  background-color: #fff;
+  width: 400px;
+  height: 620px;
+  overflow: hidden;
+  border-radius: 20px;
+  text-align: center;
+}
+.img-bg {
+  height: 200px;
+  background-image: url("illustration-hero.svg");
+  background-size: cover;
+}
+.card-info {
+  padding: 40px;
+}
+.card-info p {
+  color: #858898;
+  font-size: 15px;
+  line-height: 25px;
+}
+.card-info h2 {
+  margin-bottom: 15px;
+  color: #1a2b4c;
+  font-size: 25px;
+  font-weight: 900;
+}
+.price-container {
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: rgba(249, 248, 254, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.pricing {
+  margin-left: -40px;
+}
+.pricing h4 {
+  margin-top: -15px;
+  padding: 5px;
+  color: #262f47;
+  font-weight: 900;
+  font-size: 15px;
+}
+.change_pay a {
+  color: #382ae1;
+  text-decoration: underline;
+  font-size: small;
+  font-weight: 700;
+}
+.change_pay a:hover {
+  color: #716bc8;
+  text-decoration: none;
+}
+.btn-main {
+  margin-top: 10px;
+  padding: 20px;
+}
+.btn-main .proceedpay {
+  width: 80%;
+  padding: 15px;
+  background-color: #382ae1;
+  border: none;
+  border-radius: 8px;
+}
+.btn-main .proceedpay a {
+  color: #fff;
+}
+.proceedpay:hover {
+  background-color: #766df0;
+}
+.btn-main .cancel a {
+  font-size: small;
+  color: #787c93;
+  font-weight: 900;
+}
+.btn-main .cancel a:hover {
+  color: #3a3f55;
+}
+.btn-main .cancel {
+  margin-top: 10px;
+  padding: 5px;
+}
